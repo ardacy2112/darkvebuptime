@@ -23,7 +23,7 @@ module.exports = {
         const links = db.get(`UptimeLink_${interaction.user.id}`).map(map => `**Link:** ${map}`).join("\n")
 
         const LinkListe = new EmbedBuilder()
-            .setTitle(`Erasty Uptime • Projelerin`)
+            .setTitle(`Darkveb • Projelerin`)
             .setDescription(`${links || "Sisteme eklenmiş bir proje yok."}`)
             .setColor("Blurple")
 
